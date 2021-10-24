@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html,body{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #09091e;
+}
+
+.navigator{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.frame {
+    font-family: 'Gowun Dodum', sans-serif;
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.frame>h1{    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    align-items: center;
+    text-align: center;
+    color: #FC4C57;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+/* login */
+select{
+    width:85px;
+    height:25px;
+    outline: none;
+    background: #f5f6f7;
+    border: 1px solid #999;
+}
+
+.main{
+    text-align: center;
+	margin-top: 20px;
+}
+input{
+    cursor: pointer
+}
+
+/*input 아이디박스*/
+.login-id-wrap{
+    width: 300px;
+    margin: 0px 10px 8px 10px;
+    padding: 10px;
+    border: solid 1px #dadada;
+    background: #fff;
+}
+/*input 아이디 form*/
+#input-id{
+    border: none;
+    outline:none;
+    width:100%;
+}
+/*input 패스워드박스*/
+.login-pw-wrap{
+    margin: 0px 10px 8px 10px;
+    padding: 10px;
+    border: solid 1px #dadada;
+    background: #fff;
+}
+/*input 패스워드 form*/
+#input-pw{
+    border: none;
+    outline:none;
+    width:100%;
+}
+
+.login-btn-wrap{
+    display:inline;
+    height: 52px;
+    line-height: 55px;
+    margin: 0px 10px 8px 10px;
+    cursor: pointer;
+}
+
+#login-btn {
+    display:inline;
+    width: 30%;
+    padding: 10px 0 10px;
+    border: 0;
+    cursor: pointer;
+    color: rgb(80, 78, 78);
+    background-color: rgb(212, 177, 17);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Gowun Dodum', sans-serif;
+    outline: none;    
+}
+
+#signup-btn {
+    display:inline;
+    outline: none;
+    width: 30%;
+    padding: 10px 0 10px;
+    border: 0;
+    cursor: pointer;
+    color: rgb(80, 78, 78);
+    background-color: rgb(212, 177, 17);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+.signup-btn-wrap{
+    display:inline;
+    height: 40px;
+    line-height: 45px;
+    margin: 0px 10px 8px 10px;     
+    cursor: pointer;
+}

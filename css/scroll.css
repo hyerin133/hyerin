@@ -1,0 +1,127 @@
+/* 웹 페이지 스크롤 */
+*{margin:0;padding:0}
+html, body{overflow-y:hidden}
+ul, ol{list-style:none}
+.header{position:fixed;z-index:10;top:0;width:100%;background-color: #09091e; }
+.header ul:after{content:"";display:block;clear:both}
+.header ul li{float:left;border-left:1px solid #09091e;box-sizing:border-box;width:20%}
+.header ul li:first-child{border-left:none}
+/* 상단부 박스 담당 */
+.header ul li a{display:block;height:40px;text-align:center;line-height:40px;font-size:15px;text-decoration:none;background-color:#09091e;color:#fff}
+.header ul li.on a{background-color:#fff;color:#09091e}
+.content{
+    width: 1200px;
+    height: 100;
+    background-color: lightgrey;
+    float:initial;
+    margin: 0 auto;
+    }
+.content div{position:relative}
+.content div p{position:absolute;top:50%;margin-top:-40px;text-align:center;width:100%;font-size:80px;font-weight:bold;color:#fff}
+/* .content .cnt01{background-color:#cc6666}
+.content .cnt02{background-color:#9966cc}
+.content .cnt03{background-color:#6699cc}
+.content .cnt04{background-color:#66cc99} */
+
+body{
+    background-color: #09091e;
+}
+
+/* 모든 p */
+/* p{
+    color: lightgrey;
+} */
+
+.title{
+    color: rgb(1, 6, 53);
+    font-size: 37px;
+    font-family: 'Permanent Marker', cursive;
+}
+.logo{
+    margin: 50px;
+    padding-left: 35px;
+    display: block;
+}
+.cnt01 .cnt02 .cnt03{
+    position: relative;
+    height: 100%;
+    color: lightgrey;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+/* cnt1 , page1 */
+.page1{
+    /* border-bottom: dotted 1px; */
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+.infotext{
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    font-size: 30px;
+    color: rgb(9, 2, 56);
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: bold;
+}
+
+/* page2 */
+.page2{
+    /* border-bottom: dotted 1px; */
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+.versus{
+    font-size: 15px;
+}
+/* page3 */
+.page3{
+    /* border-bottom: dotted 1px; */
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+.roadmap_img{
+    display: inline-block;
+}
+.box1.box2.box3{
+    margin: 8px;
+    margin: 2px;
+    border: 11px;
+}
+.box1{    
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    display: inline-block;
+    width: auto;
+    height: auto ;
+    border: 7px solid rgb(255, 123, 0);
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.box2{border: 7px solid rgb(13, 168, 189) ;
+    display: inline-block;
+    width: auto;
+    height: auto ;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.box3{border: 7px solid rgb(245, 191, 43);
+    display: inline-block;
+    width: auto;
+    height: auto ;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+/* .color4{border: 4px rgb(94, 50, 119);} */
